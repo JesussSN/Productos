@@ -30,20 +30,20 @@
 				<tr>				
 					<td>Nombre del producto:</td>
 					<td>
-						<input type="text" th:field="*{name}" />
+						<input type="text" th:field="*{name}" required/>
 					</td>
 				</tr>
 				<tr>
 					<td>Marca:</td>
-					<td><input type="text" th:field="*{brand}" /></td>
+					<td><input type="text" th:field="*{brand}" required/></td>
 				</tr>
 				<tr>
 					<td>Hecho en:</td>
-					<td><input type="text" th:field="*{madein}" /></td>
+					<td><input type="text" th:field="*{madein}" required/></td>
 				</tr>
 				<tr>
 					<td>Precio:</td>
-					<td><input type="text" th:field="*{price}" /></td>
+					<td><input type="text" th:field="*{price}" required /></td>
 				</tr>								
 				<tr>
 					<td colspan="2"><button class="btn btn-primary" type="submit">Guardar</button> </td>
